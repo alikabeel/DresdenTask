@@ -1,0 +1,3 @@
+NXST_FLOW reply (xid=0x4):
+ cookie=0x0, duration=764.373s, table=0, n_packets=15, n_bytes=1470, idle_age=78, icmp,nw_src=175.16.1.2,nw_dst=175.16.1.3,icmp_type=8 actions=drop
+ cookie=0x0, duration=764.381s, table=0, n_packets=51, n_bytes=4018, idle_age=51, priority=0 actions=NORMAL
