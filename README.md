@@ -54,6 +54,14 @@ In this step we need to run our [init.sh script](init.sh). The script automates 
  ```
  This script as well need root privileges  like the other scripts.
  
+ ### Extra
+As engineers usually love automation and tend to reduce the amount of future work. I combined the solution of this task into just one script that will perform all steps and will even output the required deliverables. The [Automate.sh script](Automate.sh) which require root privileges is able to completely solve the task and can be run by using the following:
+```
+chmod 777 Automate.sh
+./Automate.sh
+```
+
+ 
  ### Conclusion
  Once you are done with the aforementioned request you can start pinging between containers to check everything is working correctly. 
  
